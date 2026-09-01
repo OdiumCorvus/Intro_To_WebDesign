@@ -4,7 +4,7 @@ body {
 
 #container {
     background-color: rgb(232, 210, 193);
-    width: 1100px; 
+    width: 1090px; 
     margin: 20px auto;
     border: 2px solid rgb(66, 35, 69);
     padding: 20px;
@@ -50,13 +50,18 @@ main {
 main h2{
     color:rgb(66, 35, 69);
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 main img {
     display: block;
     margin:20px auto;
     width:600px;
+}
+
+h3{
+    color:blue
+    font-size: 60px;
 }
 
 footer {
@@ -71,10 +76,17 @@ hr {
 
 .img_style {
     display: block;
-    margin: 20px auto;
-    width: 350px;
+    margin: 10px auto;
+    width: 345px;
 }
 
 .gallery img {
     display: inline;
 }
+
+.gallery2 img {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+

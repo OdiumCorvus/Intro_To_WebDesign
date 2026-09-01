@@ -33,6 +33,7 @@ nav a:hover {
 header {
     text-align:center;
     padding: 30px;
+    margin: 
 }
 
 header h1 {
@@ -60,8 +61,8 @@ main img {
 }
 
 h3{
-    color:blue
-    font-size: 60px;
+    color:blue;
+    font-size: 30px;
 }
 
 footer {
@@ -76,17 +77,22 @@ hr {
 
 .img_style {
     display: block;
-    margin: 10px auto;
-    width: 345px;
+    width: 330px;
 }
 
 .gallery img {
     display: inline;
+    padding: 8px;
+}
+
+.img_style2 {
+    display: block;
+    width: 400px;
 }
 
 .gallery2 img {
     display: inline;
     margin-left: auto;
     margin-right: auto;
+    padding: 58px;
 }
-

@@ -6,20 +6,20 @@ body {
     background-color: rgb(232, 210, 193);
     width: 1090px; 
     margin: 20px auto;
-    border: 2px solid rgb(66, 35, 69);
+    border: 4px solid rgb(66, 35, 69);
     padding: 20px;
     border-radius: 20px;
 }
 
 nav {
     text-align: center;
-    border-top: 3px solid rgb(104, 121, 98);
-    border-bottom: 3px solid rgb(104, 121, 98);
+    border-top: 3px solid rgb(69, 86, 61);
+    border-bottom: 3px solid rgb(69, 86, 61);
     padding: 20px 0;
 }
 
 nav a {
-    color:rgb(69, 86, 61);
+    color:rgb(61, 69, 86);
     font-size: 25px;
     margin: 0 20px;
     text-decoration: none;
@@ -33,23 +33,24 @@ nav a:hover {
 header {
     text-align:center;
     padding: 30px;
-    margin: 
+    margin: 20px;
 }
 
 header h1 {
     color: rgb(66, 35, 69);
-    font-size: 50px
+    font-size: 60px;
+    text-decoration: underline;
 }
 
 main {
     margin: 20px auto;
-    border: 2px solid rgb(73, 16, 79);
+    border: 3px solid rgb(69, 86, 61);
     padding: 20px;
     border-radius: 20px;
 }
 
 main h2{
-    color:rgb(66, 35, 69);
+    color:rgb(61 69 86);
     text-align: center;
     font-size: 40px;
 }
@@ -61,23 +62,27 @@ main img {
 }
 
 h3{
-    color:blue;
+    color: rgb(61 69 86);
     font-size: 30px;
 }
 
 footer {
     padding: 40px 0;
     text-align: center;
-    border-top: 4px solid rgb(104, 121, 98)
+    border-top: 4px solid rgb(69, 86, 61);
 }
 
 hr {
-    height: 4px;
+    height: 1px;
+    color: rgb(69, 86, 61);
+    background-color: rgb(69, 86, 61);
+    display: block;
+    border-style: solid;
 }
 
 .img_style {
     display: block;
-    width: 330px;
+    width: 329px;
 }
 
 .gallery img {
@@ -87,12 +92,11 @@ hr {
 
 .img_style2 {
     display: block;
-    width: 400px;
+    width: 480px;
 }
 
 .gallery2 img {
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 58px;
+    display:inline;
+    Margin:auto;
+    padding:20px;
 }

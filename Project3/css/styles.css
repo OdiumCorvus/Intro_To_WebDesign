@@ -47,8 +47,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    padding: 0px;
-    margin: 20px;
+    margin: 15px auto;
 }
 
 nav li {
@@ -114,7 +113,9 @@ aside {
 }
 
 p {
+    text-align: center;
     margin-bottom: 20px;
+    color:#400101;
 }
 
 ol li, ul li {
@@ -175,4 +176,8 @@ footer {
 
 #nav {
     background-color:#F28705;
+}
+
+.sources p {
+    text-align: left;
 }

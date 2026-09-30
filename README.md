@@ -4,4 +4,6 @@
     <li><a href="Project2/index.html" target="_blank">Stocks and Stews</a></li>
     <li><a href="Project3/index.html" target="_blank">Stock, Sauces, and Stews</a></li>
     <li><a href="Project4/index.html" target="_blank">Stock, Sauces, and Stews with About me</a></li>
+    <li><a href="FinalProject/index.html" target="_blank">Local Hits - Chef Reviews</a></li>
+
 </ul>

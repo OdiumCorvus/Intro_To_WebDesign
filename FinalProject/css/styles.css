@@ -36,6 +36,17 @@ h2 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+h3 {
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 p {
     font-size: 18px;
@@ -44,6 +55,7 @@ p {
   font-weight: 400;
   font-style: normal;
   padding: 15px; 
+  text-align: center;
 }
 
 li {
@@ -93,6 +105,14 @@ nav li a:hover {
     text-decoration: none;
 }
 
+section {
+    width: 50%;
+}
+
+aside {
+    width: 50%;
+}
+
 .container {
 background-color:#e3e3e5;
     width: 75%;
@@ -127,8 +147,8 @@ background-color:#e3e3e5;
 
 .img_style {
     display: block;
-    width: 75%;
-    margin: 30px auto;
+    width: 70%;
+    margin: 20px auto;
     border: 4px solid #E58B5E;
     border-radius: 50px;
 }
@@ -136,11 +156,16 @@ background-color:#e3e3e5;
 .col_img3 {
 column-count: 3;
 display: flex;
-flex-direction:row;
 flex-wrap: wrap;
 padding: 20px;
 justify-content:center;
 gap: 15px;
+}
+
+.col_img32 {
+display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  margin: 25px;
 }
 
 .img_style2 {
@@ -148,6 +173,22 @@ gap: 15px;
    display: block;
    border-radius: 50px;
    box-shadow: 5px 10px 5px;
+}
+
+.img_style3 {
+    display: block;
+    width: 95%;
+    margin: 25px auto;
+    border: 4px solid #E58B5E;
+    border-radius: 50px;
+}
+
+.img_style4 {
+    display: block;
+    width: 55%;
+    margin: 25px auto;
+    border: 4px solid #E58B5E;
+    border-radius: 50px;
 }
 
 footer {
@@ -162,6 +203,30 @@ footer {
     border-top: 4px solid #2A2521;
 }
 
+.flexcont {
+    display: flex;
+}
+
+.video {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    width: 100%;           
+    margin: 0 auto; 
+}
+
+.links {
+    text-align: center;
+    margin: 15px auto;
+    padding: 0px;
+}
+
+.links ul, li {
+    list-style-type: none;
+
+}
+
 @media (max-width: 768px) {
 
 nav {
@@ -173,4 +238,43 @@ nav {
     padding: 5px 0px;
   }
 
+.col_img3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col_img32 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_style {
+    width: 90%;
+}
+
+.img_style2 {
+    width: 90%;
+}
+
+.flexcont {
+    display:block;
+}
+
+Section, Aside {
+    width: 100%;
+}
+
+.video {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+     width: 100%;
+    aspect-ratio: 16 / 9;
+  border: none;
+}
 }
